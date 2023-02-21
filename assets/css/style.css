@@ -87,7 +87,7 @@ body {
 .hero .sub-title {
     font-size: 1.8rem;
     font-weight: 500;
-    color: #687690;
+    color: #687691;
     line-height: 1.5;
     letter-spacing: 0.01;
     margin-bottom: 8px;
@@ -149,8 +149,10 @@ body {
 }
 
 .content .images {
+    width: 1110px;
+    max-width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 70px;
     margin-bottom: 104px;
 }
@@ -324,7 +326,6 @@ body {
     border-radius: 0px 0px 12px 12px;
     padding: 45px 11px 0;
 }
-
 
 .stats .stats-trend .row {
     display: flex;
