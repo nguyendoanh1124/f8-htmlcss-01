@@ -36,6 +36,7 @@ body {
     position: relative;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .content {
@@ -94,9 +95,8 @@ body {
     margin-left: 18px;
 }
 
-.hero {
+.header .info {
     width: 51%;
-    margin-top: 130px;
 }
 
 .hero .sub-title {
