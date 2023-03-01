@@ -18,10 +18,20 @@ body {
 
 /* Header */
 
+.fixed-header {
+    background: #e6f0ff;
+    padding-top: 34px;
+    position: sticky;
+    top: -34px;
+    z-index: 999;
+}
+
 .header {
     height: 100vh;
     background: #e6f0ff;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .content {
@@ -35,7 +45,8 @@ body {
     display: flex;
     background: #e6f0ff;
     align-items: center;
-    padding-top: 50px;
+    /* padding-top: 50px; */
+    padding: 16px 0;
 }
 
 .navbar ul {
@@ -437,7 +448,7 @@ body {
 }
 
 .contact {
-    padding: 142px 165px;
+    padding: 142px 205px;
 }
 
 .contact .body {
@@ -485,7 +496,7 @@ body {
 }
 
 .footer {
-    padding: 0 165px;
+    padding: 0 205px;
 }
 
 .footer .row {
@@ -528,7 +539,7 @@ body {
 }
 
 .copyright {
-    padding: 81px 165px;
+    padding: 81px 205px;
     display: flex;
     justify-content: space-between;
 }
